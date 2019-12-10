@@ -1,7 +1,7 @@
 ### The source codes
 
-* We developed FastBioseq on top of the implementation of FastText, Doc2Vec, and Word2Vec from the Genism python library (Rehurek and Sojka, 2010), and the implementation of ProtVec (Asgari and Mofrad, 2015). 
-* We developed ProbeRating’s neural network using Tensorflow and Keras libraries (Abadi et al., 2015).
+* We developed ProbeRating’s FastBioseq on top of the implementation of FastText, Doc2Vec, and Word2Vec from the Genism python library (Rehurek and Sojka, 2010), and the implementation of ProtVec (Asgari and Mofrad, 2015). 
+* We developed ProbeRating’s neural network recommender using Tensorflow and Keras libraries (Abadi et al., 2015).
 
 > Abadi, M. et al. (2015), TensorFlow: Large-scale machine learning on heterogene-ous systems. Software available from tensorflow.org. https://www.tensor-flow.org/
 >
