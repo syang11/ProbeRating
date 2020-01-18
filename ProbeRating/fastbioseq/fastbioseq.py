@@ -283,18 +283,3 @@ class w2vbioseq(embedbioseq, word2vec.Word2Vec):
     @staticmethod
     def load_model(model_fname):
         return word2vec.Word2Vec.load(model_fname)
-
-
-
-class VecDF:
-    """
-    Utility class
-    """
-    def __init__(self, vec):
-        self.vec = vec
-    def __str__(self):
-        return "%d dimensional vector" % len(self.vec)
-    def __repr__(self):
-        return "%d dimensional vector" % len(self.vec)
-    def __len__(self):
-        return len(self.vec)
