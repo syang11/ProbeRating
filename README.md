@@ -6,7 +6,8 @@ This repo stores codes and data for the paper:
 > Shu Yang, Xiaoxi Liu, Raymond Ng. ProbeRating: A recommender system to infer binding profiles for nucleic acid-binding proteins. 
 
 It contains: 
-1. Codes for the biological sequence embedding package FastBioseq
+1. Codes for the biological sequence embedding package FastBioseq.
+
 Usage:
 ```python
 python train_FastBioseq.py example1.fa trained_models/example1_model 25 3 2
