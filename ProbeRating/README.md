@@ -11,7 +11,7 @@ python train_FastBioseq.py sample_data/sample1.fa sample_data/trained_FastBioseq
 2. Generate embedding vectors for biological sequences, using pre-trained FastBioseq model. 
    - e.g.:
 ```python
-python genVec.py sample_data/trained_FastBioseq_models/sample2_model sample_data/sample1.fa sample1_FT.csv
+python genVec.py sample_data/trained_FastBioseq_models/sample2_model sample_data/sample1.fa sample1_FT.csv 2
 ```
 
 3. Run the ProbeRating recommender.
