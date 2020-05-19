@@ -3,19 +3,19 @@
 Examples to run ProbeRating and FastBioseq with toy sample data. 
 
 1. Train FastBioseq embedding model. 
-...* e.g.:
+   - e.g.:
 ```python
 python train_FastBioseq.py sample_data/sample1.fa sample_data/trained_FastBioseq_models/sample1_model 10 3 2
 ```
 
 2. Generate embedding vectors for biological sequences, using pre-trained FastBioseq model. 
-...* e.g.:
+   - e.g.:
 ```python
 python genVec.py sample_data/trained_FastBioseq_models/sample2_model sample_data/sample1.fa sample1_FT.csv
 ```
 
 3. Run the ProbeRating recommender.
-...* e.g. (for RRM; HOMEO is similar):
+   - e.g. (for RRM; HOMEO is similar):
 ```python
 python probeRating_recommender_nn_RRM.py 1 2 0.1 30 0 2 0.01 0 1 sample_data/sample4.mat sample_data/sample3_FT.csv 0 tanh 0.5 3 10 10
 ```
