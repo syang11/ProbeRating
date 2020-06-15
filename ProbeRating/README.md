@@ -1,7 +1,6 @@
 ## Source Codes
 
 ### Usage
------
 Examples to run ProbeRating and FastBioseq with toy sample data. Please also see the *Implementation Details* section below for the Python version and dependent packages.
 
 1. Train FastBioseq embedding model. 
@@ -21,18 +20,18 @@ python genVec.py sample_data/trained_FastBioseq_models/sample2_model sample_data
 ```python
 python probeRating_recommender_nn_RRM.py 1 2 0.1 30 0 2 0.01 0 1 sample_data/sample4.mat sample_data/sample3_FT.csv 0 tanh 0.5 3 10 10
 ```
+-----
 
 ### Implementation Details
------
-* We developed ProbeRating’s FastBioseq on top of the implementation of FastText, Doc2Vec, and Word2Vec from the Genism python library (Rehurek and Sojka, 2010), and the implementation of ProtVec (Asgari and Mofrad, 2015). Python packages required:
-	- Python 2.7
+* We developed ProbeRating’s FastBioseq on top of the implementation of FastText, Doc2Vec, and Word2Vec from the Genism python library (Rehurek and Sojka, 2010), and the implementation of ProtVec (Asgari and Mofrad, 2015). Python packages used:
+	- Python 2.7 (also work for Python 3 with few updates in the syntax)
 	- numpy 1.15.2
 	- pandas 0.23.3
 	- scipy 1.1.0
 	- biopython 1.72
 	- gensim 3.6.0
 
-* We developed ProbeRating’s neural network recommender using Tensorflow and Keras libraries (Abadi et al., 2015).  Python packages required:
+* We developed ProbeRating’s neural network recommender using Tensorflow and Keras libraries (Abadi et al., 2015).  Python packages used:
 	- Python 3.5
 	- numpy 1.16.0
 	- pandas 0.23.3
@@ -41,6 +40,7 @@ python probeRating_recommender_nn_RRM.py 1 2 0.1 30 0 2 0.01 0 1 sample_data/sam
 	- scikit-learn 0.20.0
 	- keras 2.2.4
 	- tensorflow 1.11.0
+-----
 
 ### References
 > Abadi, M. et al. (2015), TensorFlow: Large-scale machine learning on heterogene-ous systems. Software available from tensorflow.org. https://www.tensor-flow.org/
