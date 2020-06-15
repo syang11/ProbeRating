@@ -30,6 +30,8 @@ python probeRating_recommender_nn_RRM.py 1 2 0.1 30 0 2 0.01 0 1 sample_data/sam
 	- scipy 1.1.0
 	- biopython 1.72
 	- gensim 3.6.0
+	- memory-profiler 0.54.0
+	- guppy 0.1.10
 
 * We developed ProbeRating’s neural network recommender using Tensorflow and Keras libraries (Abadi et al., 2015).  Python packages used:
 	- Python 3.5
@@ -37,9 +39,12 @@ python probeRating_recommender_nn_RRM.py 1 2 0.1 30 0 2 0.01 0 1 sample_data/sam
 	- pandas 0.23.3
 	- scipy 1.1.0
 	- biopython 1.72
+	- h5py 2.8.0
 	- scikit-learn 0.20.0
 	- keras 2.2.4
 	- tensorflow 1.11.0
+
+* Besides, we used a CentOS Linux 7 node with one NVIDIA Tesla P100 GPU, three Intel Xeon E5-2683 CPUs, and 12 GB RAM, for the paper.
 -----
 
 ### References

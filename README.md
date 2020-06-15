@@ -3,7 +3,7 @@
 Welcome!
 
 This repo stores codes and data for the paper:
-> Shu Yang, Xiaoxi Liu, Raymond Ng. ProbeRating: A recommender system to infer binding profiles for nucleic acid-binding proteins. 
+> Shu Yang, Xiaoxi Liu, Raymond Ng. ProbeRating: A recommender system to infer binding profiles for nucleic acid-binding proteins. Bioinformatics. 2020.
 
 It contains: 
 
