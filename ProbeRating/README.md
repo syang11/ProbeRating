@@ -16,7 +16,7 @@ python genVec.py sample_data/trained_FastBioseq_models/sample2_model sample_data
 ```
 
 3. Run the ProbeRating recommender.
-   - e.g. (for RRM; HOMEO is similar):
+   - e.g. (for RRM; HOMEO is similar). Please note that the intensity data, i.e. the 'Y' matrix in the input .mat file, is quantile-normalized when used in the paper as well as in the AffinityRegression paper:
 ```python
 python probeRating_recommender_nn_RRM.py 1 2 0.1 30 0 2 0.01 0 1 sample_data/sample4.mat sample_data/sample3_FT.csv 0 tanh 0.5 3 10 10
 ```
